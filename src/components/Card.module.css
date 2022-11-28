@@ -1,0 +1,93 @@
+.card {
+  color: rgba(34, 34, 34, 0.702);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 14rem;
+}
+
+.temp {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.temps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.names {
+  display: flex;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-left: 1.5rem;
+}
+
+.card > img {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.primary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 5vh 15vh;
+  width: 25rem;
+  padding: 0 0.5rem;
+  
+}
+.primary > img {
+  width: 13rem;
+  height: 13rem;
+  margin-bottom: 4.5rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.primary > div{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.primary > span {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0.7rem;
+  grid-column: 1 / span 2;
+  font-size: 2.3rem;
+  margin-left: 7rem;
+  font-weight: 700;
+}
+
+.buttonClose {
+  border: solid 2px transparent;
+  border-radius: 9999px;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  background-color: transparent;
+  cursor: pointer;
+  color: #ffffffff;
+  grid-auto-flow: column;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.buttonClose:hover {
+  color: rgb(180, 15, 15);
+}
