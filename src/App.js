@@ -4,8 +4,7 @@ import Cards from "./components/Cards.jsx";
 import SearchBar from "./components/SearchBar.jsx";
 import styles from "./App.module.css";
 
-const apiKey = "94f1b6f44f0ea25c1871ffd9415f4076";
-// const apiKey = process.env.REACT_APP_APIKEY;
+const apiKey = process.env.REACT_APP_APIKEY;
 
 function App() {
   const [ciudades, setCiudades] = React.useState([]); //ciudades=es donde va a estar la informacion setCiudades=el seteador del estado.
